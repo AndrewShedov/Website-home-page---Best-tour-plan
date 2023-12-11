@@ -185,7 +185,7 @@ const mySwiper3 = new Swiper('.other_activities_slider', {
       spaceBetween: 29,
     }
   },
-  speed: 6000,
+  speed: 8000,
   autoplay: {
     delay: false,
     pauseOnMouseEnter: true,
