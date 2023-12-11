@@ -946,11 +946,6 @@ nav ul a {
   position: relative;
 }
 
-.swiper_container_1 {
-  cursor: pointer;
-  border-radius: 8px !important;
-}
-
 .swiper_1_slider_button_next {
   position: absolute;
   display: flex;
@@ -994,7 +989,8 @@ nav ul a {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .gh_hotel_image_background {
