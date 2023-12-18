@@ -8,7 +8,7 @@ let menuMobile = document.getElementById("menu_mobile");
 let wrap = document.getElementById("wrap");
 let UpButton = document.getElementById("UpButton");
 
-///////////////Function opening menu mobile
+// Function opening menu mobile
 function calcShowMenu(showMenu) {
   burger.classList.toggle("burger-open", showMenu);
   menuMobile.classList.toggle("menu_mobile-open", showMenu);
@@ -25,19 +25,19 @@ function calcShowMenu(showMenu) {
 }
 
 let showMenu = false;
-/////////////////Pressing a Burger
+// Pressing a Burger
 burger.addEventListener("click", () => calcShowMenu((showMenu = !showMenu)));
-/////////////Closing when pressed outside the menu mobile
+// Closing when pressed outside the menu mobile
 window.addEventListener("mousedown", (event) => {
   if (!event.target.closest(".menu_mobile, .burger")) calcShowMenu((showMenu = false));
 });
 
-/////////////Closing when pressed outside the menu mobile for mobile
+// Closing when pressed outside the menu mobile for mobile
 window.addEventListener("touchstart", (event) => {
   if (!event.target.closest(".menu_mobile, .burger")) calcShowMenu((showMenu = false));
 });
 
-/////////////Closing when you click on a menu mobile item
+// Closing when you click on a menu mobile item
 document.getElementById("menu_mobile").onclick = function (event) {
   var target = event.target;
   if (target.tagName == "A") {
@@ -45,8 +45,7 @@ document.getElementById("menu_mobile").onclick = function (event) {
   }
 };
 
-/*Menu scrolling*/
-
+// Menu scrolling
 document.addEventListener("scroll", () => {
   let scrollTop = window.scrollY;
 
@@ -101,7 +100,7 @@ btn.onclick = function (click) {
   scrollTo(0, 200);
 };
 
-//Gallery slider
+// Gallery slider
 const galleryButtons = Array.from(document.querySelectorAll(".hotel_information_gallery_menu ul li"));
 const gallerySlide = Array.from(document.querySelectorAll(".hotel_information_gallery_slide"));
 galleryButtons[0].classList.add("active");
