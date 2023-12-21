@@ -2931,11 +2931,11 @@ input[type="number"]::-webkit-inner-spin-button {
   }
 
   .header_block_2_basket_wrap {
-    order: 2;
+    order: 1;
   }
 
   .header_block_2_user {
-    order: 1;
+    order: 2;
   }
 
   .header_block_2_user svg {
@@ -2988,7 +2988,7 @@ input[type="number"]::-webkit-inner-spin-button {
   .footer_part_6_names {
     flex-direction: column;
     width: 100%;
-    gap: 3px;
+    gap: 7px;
   }
 
   .footer_part_6_payment {
