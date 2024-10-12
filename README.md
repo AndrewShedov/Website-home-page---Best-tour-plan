@@ -6,6 +6,6 @@ Technologies: Flexbox/Grid, [Swiper](https://swiperjs.com/), [Vite](https://vite
 For start: <br/>
 npm install <br/>
 npm run dev  <br/>
-[LIVE](https://site-home-page-best-tour-plan-andrewshedov.vercel.app/)
+[LIVE](https://website-home-page-best-tour-plan-andrewshedov.vercel.app/)
 
 
