@@ -1,4 +1,4 @@
-## Website-home-page---Best-tour-plan
+## Website home page - Best tour plan
 The main page of the website, based on a designer [layout](https://github.com/AndrewShedov/Website-home-page---Best-tour-plan/tree/main/public/layout), with precision layout - Pixel Perfect.<br/>
 Technologies: Flexbox/Grid, [Swiper](https://swiperjs.com/), [Vite](https://vitejs.dev/) and pure js. <br/>
 [PageSpeed Insights test](https://developers.google.com/speed/pagespeed/insights/?url=https://website-home-page-best-tour-plan.vercel.app/) <br/>
