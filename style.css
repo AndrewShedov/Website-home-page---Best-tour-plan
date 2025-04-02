@@ -519,6 +519,7 @@ button:focus,
   list-style: none;
   margin-right: 38px !important;
   margin-left: 38px !important;
+  height: 25px !important;
 }
 
 .menuMoveLeft {
@@ -698,21 +699,16 @@ button:focus,
   background-color: #ec1f46;
 }
 
-nav {
-  transition: all 500ms ease;
+.menu_desktop {
   display: block;
-}
-
-nav {
   background-color: rgb(10, 34, 61);
   position: sticky;
-  transition: all 200ms ease !important;
+  transition: all 200ms ease;
   top: -1px;
-  height: 80px;
   z-index: 999;
 }
 
-nav ul li {
+.menu_desktop ul li {
   height: 80px;
   display: flex;
   padding-right: 43px;
@@ -722,12 +718,12 @@ nav ul li {
   transition: all 500ms ease;
 }
 
-nav ul li:hover {
+.menu_desktop ul li:hover {
   background-color: rgb(214, 28, 44);
   transition: all 500ms ease;
 }
 
-nav ul {
+.menu_desktop ul {
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
@@ -738,7 +734,7 @@ nav ul {
   height: 100%;
 }
 
-nav ul li {
+.menu_desktop ul li {
   cursor: pointer;
   padding-right: 43px;
   padding-left: 43px;
@@ -747,7 +743,7 @@ nav ul li {
   justify-content: center;
 }
 
-nav ul a {
+.menu_desktop ul a {
   white-space: nowrap;
   font-family: Mulish, Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -2735,7 +2731,7 @@ input[type="number"]::-webkit-inner-spin-button {
     margin-top: 20px;
   }
 
-  nav ul li {
+  .menu_desktop ul li {
     cursor: pointer;
     padding-right: 38px;
     padding-left: 38px;
@@ -2746,7 +2742,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media (max-width: 1125px) {
-  nav ul li {
+  .menu_desktop ul li {
     cursor: pointer;
     padding-right: 30px;
     padding-left: 30px;
@@ -2757,7 +2753,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media (max-width: 1040px) {
-  nav {
+  .menu_desktop {
     transition: all 500ms ease;
     display: none;
   }
