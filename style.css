@@ -1348,6 +1348,8 @@ button:focus,
 
 .hotel_information_package_highlights_card_column_1 li::before {
   content: url(public/images/circle.svg);
+  width: 18px;
+  height: 18px;
   padding-right: 20px;
 }
 
@@ -1367,6 +1369,8 @@ button:focus,
 
 .hotel_information_package_highlights_card_column_2 li::before {
   content: url(public/images/circle.svg);
+  width: 18px;
+  height: 18px;
   padding-right: 20px;
   display: flex;
 }
@@ -1412,6 +1416,8 @@ button:focus,
 
 .hotel_information_offer_details_card_column_1 li::before {
   content: url(public/images/circle.svg);
+  width: 18px;
+  height: 18px;
   padding-right: 20px;
   display: flex;
 }
@@ -1446,6 +1452,8 @@ button:focus,
   content: url(public/images/date.svg);
   padding-right: 20px;
   display: flex;
+  width: 16px;
+  height: 18px;
 }
 
 .hotel_information_package_summery_details_card_wrap {
@@ -1523,6 +1531,8 @@ button:focus,
 .hotel_information_package_summery_details_card_column li::before {
   content: url(public/images/circle_2.svg);
   padding-right: 23px;
+  width: 16px;
+  height: 16px;
 }
 
 .hotel_information_package_summery_details_card_column_title p {
