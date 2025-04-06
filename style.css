@@ -187,7 +187,7 @@ button:focus,
 }
 
 .header_block_1 {
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
   display: flex;
   width: 100%;
   max-width: 1110px;
@@ -301,7 +301,7 @@ button:focus,
   width: 100%;
   max-width: 1110px;
   min-height: 120px;
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
   justify-content: space-between;
   transition: all 300ms ease;
 }
@@ -766,7 +766,7 @@ button:focus,
   width: 100%;
   max-width: 1110px;
   display: flex;
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
   list-style: none;
 }
 
@@ -806,7 +806,7 @@ button:focus,
   max-width: 1110px;
   width: 100%;
   flex-direction: column;
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
 }
 
 .gh_hotel_stars svg {
@@ -915,7 +915,7 @@ button:focus,
   width: 100%;
   flex-wrap: nowrap;
   max-width: 1110px;
-  margin-top: 0px;
+  margin-top: 0;
   height: 35px;
 }
 
@@ -923,7 +923,7 @@ button:focus,
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 20px 15px 0px 15px;
+  margin: 20px 15px 0 15px;
 }
 
 .gh_hotel_slider_options_map {
@@ -948,7 +948,7 @@ button:focus,
   align-items: center;
   z-index: 99;
   height: 100%;
-  right: 0px;
+  right: 0;
   cursor: pointer;
 }
 
@@ -964,7 +964,7 @@ button:focus,
 
 .swiper_1_slider_button_prev {
   position: absolute;
-  left: 0px;
+  left: 0;
   z-index: 99;
   height: 100%;
   display: flex;
@@ -1207,12 +1207,12 @@ button:focus,
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
   transition: all 300ms ease;
 }
 
 .hotel_information_gallery_menu ul li {
-  margin: 0px 29.5px 0px 29.5px;
+  margin: 0 29.5px 0 29.5px;
   font-family: Mulish, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -1267,12 +1267,12 @@ button:focus,
   display: grid;
   transition: all 500ms ease;
   justify-content: center;
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
 }
 
 .hotel_information_gallery_slide {
   grid-area: 1 / 1;
-  transform: translate(-1115px, 0px);
+  transform: translate(-1115px, 0);
   transition: transform 800ms ease-in-out 0ms;
 }
 
@@ -1558,7 +1558,7 @@ button:focus,
 }
 
 .people_thinks_title {
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
 }
 
 .people_thinks_title p {
@@ -1583,13 +1583,13 @@ button:focus,
   column-gap: 30px;
   justify-content: center;
   grid-template-areas: "p1 p1 p2" "p3 p4 p5";
-  margin: 65px 15px 0px 15px;
+  margin: 65px 15px 0 15px;
   grid-auto-rows: 1fr;
 }
 
 .Other_Packages_title {
   margin-top: 35px;
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
 }
 
 .Other_Packages_title p {
@@ -1627,14 +1627,14 @@ button:focus,
 }
 
 .Other_Packages_card_1_image_offer {
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
   background: #ec1f46;
   transition: all 500ms ease;
   padding: 8px 13px 8px 13px;
   cursor: pointer;
   position: absolute;
   top: 25px;
-  left: 0px;
+  left: 0;
   font-family: Mulish, Arial, Helvetica, sans-serif;
   font-weight: 200;
   font-size: 12px;
@@ -1793,7 +1793,7 @@ button:focus,
 .Other_Packages_card_2_image_offer {
   position: absolute;
   top: 25px;
-  left: 0px;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2078,7 +2078,7 @@ button:focus,
 
 .newsletter {
   display: flex;
-  margin: 15px 15px 0px 15px;
+  margin: 15px 15px 0 15px;
   gap: 140px;
   align-items: center;
   width: 100%;
@@ -2195,7 +2195,7 @@ button:focus,
 .other_activities {
   width: 100%;
   max-width: 1110px;
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
   overflow: hidden;
 }
 
@@ -2295,7 +2295,7 @@ button:focus,
   grid-template-areas: "p1 p2 p2" "p1 p3 p3" "p4 p5 p5" "p6 p6 p6";
   width: 100%;
   max-width: 1110px;
-  margin: 108px 15px 0px 15px;
+  margin: 108px 15px 0 15px;
   column-gap: 20px;
 }
 
@@ -2734,7 +2734,7 @@ input[type=number] {
 
   .hotel_information_gallery_menu ul li {
     font-size: 13px;
-    margin: 8px 15px 0px 15px;
+    margin: 8px 15px 0 15px;
   }
 
   .hotel_information_gallery_menu ul li:after {
@@ -2784,7 +2784,7 @@ input[type=number] {
   .gh_hotel_slider_wrap {
     width: 100%;
     max-width: 100%;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .gh_hotel_options_map_wrap {
@@ -2813,7 +2813,7 @@ input[type=number] {
 
   .footer {
     column-gap: 32px;
-    margin: 40px 15px 0px 15px;
+    margin: 40px 15px 0 15px;
   }
 
   .footer_wrap {
@@ -2821,7 +2821,7 @@ input[type=number] {
   }
 
   .footer_part_1_all_categories {
-    padding-right: 0px;
+    padding-right: 0;
   }
 
   .footer_part_2_legal_information_title p {
@@ -2897,12 +2897,12 @@ input[type=number] {
 
   .hotel_information_package_summery_details_card_column:nth-child(3) {
     position: relative;
-    left: 0px;
+    left: 0;
   }
 
   .hotel_information_package_summery_details_card_column:nth-child(6) {
     position: relative;
-    left: 0px;
+    left: 0;
   }
 
   .hotel_information_package_summery_details_card {
@@ -2961,7 +2961,7 @@ input[type=number] {
   .newsletter {
     flex-direction: column;
     gap: 20px;
-    margin: 0px 15px 0px 15px;
+    margin: 0 15px 0 15px;
     align-items: self-start;
   }
 }
@@ -2986,7 +2986,7 @@ input[type=number] {
   .header_block_1_gift_loyalty {
     justify-content: space-between;
     width: 100%;
-    gap: 0px;
+    gap: 0;
   }
 }
 
@@ -3121,11 +3121,11 @@ input[type=number] {
   .Other_Packages_card_1_image img {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0;
   }
 
   .Other_Packages_card_1_description {
-    border-top-right-radius: 0px;
+    border-top-right-radius: 0;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
   }
@@ -3177,7 +3177,7 @@ input[type=number] {
   }
 
   .hotel_information_package_summery_details_card_column:nth-child(4) {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
   .hotel_information_package_summery_details_card_column:nth-child(5) {
@@ -3189,7 +3189,7 @@ input[type=number] {
   }
 
   .hotel_information_package_summery_details_card_column:nth-child(3) {
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .hotel_information_package_summery_details_card_column li::before {
